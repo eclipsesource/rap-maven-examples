@@ -1,13 +1,13 @@
 package com.eclipsesource.rap.examples.maven;
 
-import org.eclipse.rwt.lifecycle.IEntryPoint;
+import org.eclipse.rap.rwt.application.EntryPoint;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
-public class DemoApplication implements IEntryPoint {
+public class DemoApplication implements EntryPoint {
 
 	private String buttonText = "Hello Maven World";
 
